@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>H-W 2</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class="container1">
+            <h1 class="text-center text-capitalize text-dark pt-3 mb-3">enter tour exam grade</h1>
+            <div class="content text-center">
+                <form action="" class="form">
+                    <input type="number" placeholder="Enter your grade" class="form-check-input w-25 mb-4" style="height: 30px;" id="grade" required><br>
+                    <button type="button"class="btn btn-primary m-auto ms-4" onclick="grdee()">Calculate Tip </button><br><br>
+                </form>
+                <div id="message" class="ms-4 text-center"></div>
+            </div>
+        </section>
+        <h2 class="text-center">------------------------------------------------------------------------------------------</h2>
+        <section class="container2">
+            <h1 class="text-center text-capitalize text-dark ps-3 mb-3">age calculator</h1>
+            <form action="" class="form text-center">
+                <input type="date" id="date" class="form-check-input w-25 mb-4" style="height: 40px;" required><br>
+                <button class="btn btn-primary mb-4 m-auto" type="button" onclick="agee()">Calculate</button>
+            </form>
+            <div id="age" class="text-center">
+
+            </div>
+        </section>
+        <h2 class="text-center">------------------------------------------------------------------------------------------</h2>
+        <section class="container3">
+            <h1 class="text-capitalize text-center text-dark">enter your valedation form</h1>
+            <form action="" class="form text-center">
+                <input type="text" placeholder="Enter your name" id="name" class="form-check-input w-25 mb-4" style="height: 30px;" required><br>
+                <input type="email" placeholder="Enter email adress" id="email" class="form-check-input w-25 mb-4" style="height: 30px;" required><br>
+                <input type="password" placeholder="Enter your password" id="password" class="form-check-input w-25 mb-4" style="height: 30px;" required><br>
+                <button type="button" class="btn btn-primary m-auto mb-4" onclick="vld()">SUBMIT</button>
+            </form>
+        </section>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
